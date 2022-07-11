@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/application_7.xsd" version="7">
+  <display-name>ejblocal-ear</display-name>
+  <module>
+    <web>
+      <web-uri>client-1.0-SNAPSHOT.war</web-uri>
+      <context-root>/client</context-root>
+    </web>
+  </module>
+  <module>
+    <ejb>com-ejb-1.0-SNAPSHOT.jar</ejb>
+  </module>
+</application>
